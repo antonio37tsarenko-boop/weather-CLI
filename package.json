@@ -1,0 +1,35 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "cli for getting weather",
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "/"
+  },
+  "bin": {
+    "weather": "node weather.js"
+  },
+  "license": "ISC",
+  "author": "Anton Tsarenko",
+  "type": "module",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "1.0.1": "^1.0.0",
+    "axios": "^1.13.1",
+    "chalk": "^5.6.2",
+    "dedent-js": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
