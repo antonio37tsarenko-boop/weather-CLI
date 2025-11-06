@@ -28,4 +28,4 @@ const isExist = async (path)=>{
         return false;
     }
 }
-export { saveKeyValue, getKeyValue }
+export { saveKeyValue, getKeyValue, filePath }
