@@ -1,14 +1,14 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-101010",
   "version": "1.0.0",
-  "description": "cli for getting weather",
+  "description": "CLI for getting weather",
   "keywords": [
     "cli",
     "weather"
   ],
   "repository": {
     "type": "git",
-    "url": "/"
+    "url": "https://github.com/antonio37tsarenko-boop/weather-CLI"
   },
   "bin": {
     "weather": "node weather.js"
